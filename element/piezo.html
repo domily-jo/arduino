@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <!--css 불러오기 <link rel="stylesheet" href="brings/product.css"/>-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="../../CSS/list.css">
+        <link rel="stylesheet" href="../../CSS/picture.css">
+
+        <!--font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&family=Hahmlet:wght@100..900&family=Jua&family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+        
+    </head>
+
+	<body>
+        <!--목록-->
+        <header class="site-header sticky-top py-1">
+            <nav class="container d-flex flex-column flex-md-row justify-content-between">
+                <a class="py-2" href="home.html" aria-label="Product">
+                    <!--로고-->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+                </a>
+                <a class="btn btn-outline-secondary" style="color:#DCDCDC;" href="../base.html" target="_self">아두이노 기초</a>
+                <a class="btn btn-outline-secondary" style="color:#DCDCDC;" href="../element.html" target="_self">기본 소자</a>
+                <a class="btn btn-outline-secondary" style="color:#DCDCDC;" href="../use.html" target="_self">활용 예시</a>
+                <a class="btn btn-outline-secondary" style="color:#DCDCDC" href="../error.html" target="_self">오류 해결</a>
+            </nav>
+        </header>   
+
+        <p> &nbsp; </p>
+
+        <b style="font-size:60px;"> &nbsp; 피에조 부저 </b>
+        <p class="px-md-5" style="font-size:30px;"> : 전기적으로 신호를 받아 진동을 일으켜 소리를 내는 부저. (+)는 Dn에, (-)는 GND에 연결한다. </p>
+    
+
+        <div class="d-md-flex my-md-3 ps-md-3">
+            <div class="pt-md-3 pb-md-3 px-md-3">
+                <img src="../images/piezo.bmp" width="380" height="300"></img>
+                <p>&nbsp;</p>
+                <div class="pt-md-4 colorscripter-code" style="color:#f0f0f0;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important; position:relative !important;overflow:auto"><table class="colorscripter-code-table" style="margin:0;padding:0;border:none;background-color:#272727;border-radius:4px;" cellspacing="0" cellpadding="0"><tr><td style="padding:6px;border-right:2px solid #4f4f4f"><div style="margin:0;padding:0;word-break:normal;text-align:right;color:#aaa;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="line-height:130%">1</div><div style="line-height:130%">2</div><div style="line-height:130%">3</div><div style="line-height:130%">4</div><div style="line-height:130%">5</div><div style="line-height:130%">6</div><div style="line-height:130%">7</div><div style="line-height:130%">8</div><div style="line-height:130%">9</div><div style="line-height:130%">10</div><div style="line-height:130%">11</div><div style="line-height:130%">12</div><div style="line-height:130%">13</div><div style="line-height:130%">14</div><div style="line-height:130%">15</div><div style="line-height:130%">16</div><div style="line-height:130%">17</div><div style="line-height:130%">18</div><div style="line-height:130%">19</div><div style="line-height:130%">20</div><div style="line-height:130%">21</div><div style="line-height:130%">22</div><div style="line-height:130%">23</div><div style="line-height:130%">24</div><div style="line-height:130%">25</div><div style="line-height:130%">26</div><div style="line-height:130%">27</div></div></td><td style="padding:6px 0;text-align:left"><div style="margin:0;padding:0;color:#f0f0f0;font-family:Consolas, 'Liberation Mono', Menlo, Courier, monospace !important;line-height:130%"><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#ff3399">void</span>&nbsp;setup(){</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;&nbsp;&nbsp;pinMode(<span style="color:#c10aff">3</span>,&nbsp;OUTPUT);</div><div style="padding:0 6px; white-space:pre; line-height:130%">}</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;</div><div style="padding:0 6px; white-space:pre; line-height:130%"><span style="color:#ff3399">void</span>&nbsp;loop(){</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;<span style="color:#999999">//도</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;tone(<span style="color:#c10aff">3</span>,&nbsp;<span style="color:#c10aff">261</span>,&nbsp;<span style="color:#c10aff">1000</span>)</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;delay(<span style="color:#c10aff">1000</span>;)</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;<span style="color:#999999">//레</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;tone(<span style="color:#c10aff">3</span>,&nbsp;<span style="color:#c10aff">293</span>,&nbsp;<span style="color:#c10aff">1000</span>)</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;delay(<span style="color:#c10aff">1000</span>;)</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;<span style="color:#999999">//미</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;tone(<span style="color:#c10aff">3</span>,&nbsp;<span style="color:#c10aff">329</span>,&nbsp;<span style="color:#c10aff">1000</span>)</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;delay(<span style="color:#c10aff">1000</span>;)</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;<span style="color:#999999">//파</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;tone(<span style="color:#c10aff">3</span>,&nbsp;<span style="color:#c10aff">349</span>,&nbsp;<span style="color:#c10aff">1000</span>)</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;delay(<span style="color:#c10aff">1000</span>;)</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;<span style="color:#999999">//솔</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;tone(<span style="color:#c10aff">3</span>,&nbsp;<span style="color:#c10aff">392</span>,&nbsp;<span style="color:#c10aff">1000</span>)</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;delay(<span style="color:#c10aff">1000</span>;)</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;<span style="color:#999999">//라</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;tone(<span style="color:#c10aff">3</span>,&nbsp;<span style="color:#c10aff">440</span>,&nbsp;<span style="color:#c10aff">1000</span>)</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;delay(<span style="color:#c10aff">1000</span>;)</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;<span style="color:#999999">//시</span></div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;tone(<span style="color:#c10aff">3</span>,&nbsp;<span style="color:#c10aff">494</span>,&nbsp;<span style="color:#c10aff">1000</span>)</div><div style="padding:0 6px; white-space:pre; line-height:130%">&nbsp;&nbsp;delay(<span style="color:#c10aff">1000</span>;)</div><div style="padding:0 6px; white-space:pre; line-height:130%">}</div></div></td><td style="vertical-align:bottom;padding:0 2px 4px 0"><a href="http://colorscripter.com/info#e" target="_blank" style="text-decoration:none;color:white"><span style="font-size:9px;word-break:normal;background-color:#4f4f4f;color:white;border-radius:10px;padding:1px">cs</span></a></td></tr></table></div>
+            </div>
+
+            <div class="content">
+                <p>&nbsp;</p>
+                <p class="px-md-5" style="font-weight:600; font-size:25px;">1-1 활용 예시</p>
+                <p class="px-md-5" style="font-size:25px;">1. 경보 시스템 <br> 2. 전자 악기</p>
+                <p>&nbsp;</p>
+                <p class="px-md-5" style="font-weight:600; font-size:25px;"> 2-1 프로그래밍 </p>
+                <p class="px-md-5" style="font-size:25px;"> [도레미파솔라시 소리] <br> 핀모드 3에 연결, 도(261), 레(293), 미(329), 파(349), 솔(392), 라(440), 시(494) </p>
+                <img class="px-md-5" src="../images/piezo code.bmp" width="600" height="700"></img>
+            </div>
+
+        </div>
+        
+        
+    <!--문의사항-->
+    <footer class="px-md-5 py-5">
+        <div class="row">
+          <div class="col-12 col-md"> <!--단을 2개로 만들어줌-->
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+            <small class="d-block mb-3">&copy; 2024.6.30 </small>
+          </div>
+        
+          <div class="col-6 col-md">
+            <p class="text-muted">문의사항</p>
+            <ul class="list-unstyled text-small">
+              <p class="text-muted">전자공학 e-mail : </p>
+              <p class="text-muted">컴퓨터공학 e-mail : hyunice1226@gmail.com</p>
+            </ul>
+        </div>
+      </footer>
+
+	</body>
+</html>

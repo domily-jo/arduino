@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <!--css 불러오기 <link rel="stylesheet" href="brings/product.css"/>-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">  
+
+    <link rel="stylesheet" href="../CSS/list.css">
+    
+    <title>아두이노 메뉴얼</title>
+
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&family=Hahmlet:wght@100..900&family=Jua&family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+            
+  </head>
+
+  <body>
+    <!--목록-->
+    <header class="site-header sticky-top py-1">
+      <nav class="container d-flex flex-column flex-md-row justify-content-between">
+        <a class="py-2" href="home.html" aria-label="Product">
+          <!--로고-->
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+        </a>
+        <a class="btn btn-outline-secondary" style="color:#DCDCDC;" href="base.html" target="_self">아두이노 기초</a>
+        <a class="btn btn-outline-secondary" style="color:#DCDCDC;" href="element.html" target="_self">기본 소자</a>
+        <a class="btn btn-outline-secondary" style="color:#DCDCDC;" href="use.html" target="_self">활용 예시</a>
+        <a class="btn btn-outline-secondary" style="color:#DCDCDC" href="error.html" target="_self">오류 해결</a>
+<!--
+        <a class="btn">아두이노란?은</a>
+        <a class="py-2 d-none d-md-inline-block" href="#">홈 화면에 들어가?</a>
+        <a class="btn btn-outline-danger">오류해결</a>
+        <button type="button" class="btn btn-outline-warning">오류 해결</button>
+        <button type="button" class="btn btn-outline-warning" href="error.html">게시판도 해?</button>
+-->
+      </nav>
+    </header>
+
+    <!--사진or 영상-->
+    <main>
+      <div class="position-relative overflow-hidden pt-md-3 m-md-3 text-center bg-light">
+        <div style="text-align : center;">
+          <img src="images/shoes.jpg" width="1000" height="500" alt="신발사진"></img>
+          <h1 class="display-4 fw-normal">설명 필요해?</h1>
+          <p class="lead fw-normal">이건 쪼매난 글씨</p>
+        </div>
+<!--
+        <div class="product-device shadow-sm d-none d-md-block"></div>
+        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
+-->
+      </div>
+
+      <!--본문-->
+      <div>여기 기본 설명?</div>
+    </main>    
+
+    <!--문의사항-->
+    <footer class="px-md-5 py-5">
+      <div class="row">
+        <div class="col-12 col-md"> <!--단을 2개로 만들어줌-->
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+          <small class="d-block mb-3">&copy; 2024.6.30 </small>
+        </div>
+      
+        <div class="col-6 col-md">
+          <p class="text-muted">문의사항</p>
+          <ul class="list-unstyled text-small">
+            <p class="text-muted">전자공학 e-mail : </p>
+            <p class="text-muted">컴퓨터공학 e-mail : hyunice1226@gmail.com</p>
+          </ul>
+      </div>
+    </footer>
+
+    
+    <!-- Optional JavaScript; choose one of the two! -->
+  
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>

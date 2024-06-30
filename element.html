@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Bootstrap CSS -->
+        <!--css 불러오기 <link rel="stylesheet" href="brings/product.css"/>-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="../CSS/list.css">
+        <link rel="stylesheet" href="../CSS/element.css">
+        
+        <!--font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gothic+A1&family=Hahmlet:wght@100..900&family=Jua&family=Nanum+Myeongjo&display=swap" rel="stylesheet">
+        
+	</head>
+
+	<body>
+        <!--목록-->
+        <header class="site-header sticky-top py-1">
+            <nav class="container d-flex flex-column flex-md-row justify-content-between">
+                <a class="py-2" href="home.html" aria-label="Product">
+                    <!--로고-->
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mx-auto" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+                </a>
+                <a class="btn btn-outline-secondary" style="color:#DCDCDC;" href="base.html" target="_self">아두이노 기초</a>
+                <a class="btn btn-outline-secondary" style="color:#DCDCDC;" href="element.html" target="_self">기본 소자</a>
+                <a class="btn btn-outline-secondary" style="color:#DCDCDC;" href="use.html" target="_self">활용 예시</a>
+                <a class="btn btn-outline-secondary" style="color:#DCDCDC" href="error.html" target="_self">오류 해결</a>
+            </nav>
+        </header>
+
+        <div class="d-md-flex flex-md-equal w-100 my-md-3 ps-md-3">
+            <a href="element/piezo.html" target="_self">
+                <div class="me-md-3 pt-3 px-3 pt-md-3 px-md-3 text-center text-white" style="background-color: rgba(0, 0, 0, .85)">
+                    <img src="images/piezo.bmp" width="320" height="220"></img>
+                    <h2 class="display-5" style="margin-top: 10px; padding-bottom: 20px;">피에조 부저</h2>
+                </div>
+            </a>
+
+            <a href="element/LCD.html" target="_self">
+                <div class="me-md-3 pt-3 px-3 pt-md-3 px-md-3 text-center text-white" style="background-color: rgba(0, 0, 0, .85)">
+                    <img src="images/LCD.bmp" width="320" height="220"></img>
+                    <h2 class="display-5" style="margin-top: 10px; padding-bottom: 20px;">LCD</h2>
+                </div>
+            </a>
+
+            <a href="element/slideswitches.html" target="_self">
+                <div class="me-md-3 pt-3 px-3 pt-md-3 px-md-3 text-center text-white" style="background-color: rgba(0, 0, 0, .85)">
+                    <img src="images/switches.bmp" width="320" height="220"></img>
+                    <h2 class="display-5" style="margin-top: 10px; padding-bottom: 20px; font-size: 45px;">슬라이드 스위치</h2>
+                </div>
+            </a>
+
+            <a href="element/potentiometer.html" target="_self">
+                <div class="me-md-3 pt-3 px-3 pt-md-3 px-md-3 text-center text-white" style="background-color: rgba(0, 0, 0, .85)">
+                    <img src="images/potentiometer.bmp" width="320" height="220"></img>
+                    <h2 class="display-5" style="margin-top: 10px; padding-bottom: 20px;">가변저항</h2>
+                </div>
+            </a>
+        </div>
+
+
+    <!--문의사항-->
+    <footer class="px-md-5 py-5">
+        <div class="row">
+          <div class="col-12 col-md"> <!--단을 2개로 만들어줌-->
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24"><title>Product</title><circle cx="12" cy="12" r="10"/><path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94"/></svg>
+            <small class="d-block mb-3">&copy; 2024.6.30 </small>
+          </div>
+        
+          <div class="col-6 col-md">
+            <p class="text-muted">문의사항</p>
+            <ul class="list-unstyled text-small">
+              <p class="text-muted">전자공학 e-mail : </p>
+              <p class="text-muted">컴퓨터공학 e-mail : hyunice1226@gmail.com</p>
+            </ul>
+        </div>
+      </footer>
+  
+	</body>
+</html>
